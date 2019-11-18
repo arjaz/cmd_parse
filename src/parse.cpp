@@ -61,7 +61,7 @@ int main(int argc, char **argv) {
                 std::cout << token << " ";
                 arguments.erase(0, pos + 1);
             }
-            std::cout << std::endl;
+            std::cout << arguments << std::endl;
         }
     }
 
