@@ -46,10 +46,10 @@ int main(int argc, char **argv) {
         std::cout << "Usage:\t\t" << argv[0] << " [-h] [--help] [-v] [--version] [-l] [--list]" << std::endl;
     }
     if (opts.version) {
-        std::cout << "Version:\t 1.0.0" << std::endl;
+        std::cout << "Version:\t1.0.0" << std::endl;
     }
     if (opts.list) {
-        std::cout << "List arguments:\t ";
+        std::cout << "List arguments:\t";
         if (opts.list_arg.find(",") == std::string::npos) {
             std::cout << opts.list_arg << std::endl;
         } else {
